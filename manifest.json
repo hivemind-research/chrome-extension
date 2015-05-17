@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Hivemind",
+  "description": "Identify web technologies used on websites.",
+  "version": "1.0.0",
+  "icons": { 
+    "16": "images/hivemind_brain_16.png",
+    "48": "images/hivemind_brain_48.png",
+    "128": "images/hivemind_brain_128.png" 
+  },
+  "browser_action": {
+    "default_icon": "images/hivemind_brain.png",
+    "default_popup": "popup.html",
+    "default_title": "Hivemind"
+  },
+  "permissions": [
+    "activeTab",
+    "http://api.askhivemind.com/"
+  ],
+  "author": "Tom Robertshaw",  
+  "web_accessible_resources": [
+    "fonts/*.eot",
+    "fonts/*.woff",
+    "images/*.png",
+    "images/flags/*.png",
+    "images/favicons/*.ico",
+    "css/*.css",
+    "js/*.js"
+  ]
+}
