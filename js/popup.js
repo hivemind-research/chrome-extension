@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         var html = " \
             <div class='summary'> \
-                <h2>" + result.domain + "</h2> \
+                <a href='https://askhivemind.com/site/" + result.domain + "' target='_blank'><h2>" + result.domain + "</h2></a> \
             </div> \
             <h3>Technologies</h3> \
             <ul class='technologies'>";
@@ -76,10 +76,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 var tech = result.technologies[i];
                 html += " \
                     <li> \
-                        <a class='tech-link' href='" + tech.link + "'> \
+                        <a class='tech-link' href='https://askhivemind.com/technology/" + tech.code + "' target='_blank'> \
                             <img class='favicon' src='images/favicons/" + tech.code + "-favicon.ico' width='16' height='16' /> \
                         </a> \
-                        <a class='tech-link' href='" + tech.link + "'> \
+                        <a class='tech-link' href='https://askhivemind.com/technology/" + tech.code + "' target='_blank'> \
                         <span class='label'>" + tech.label + "</label> \
                         </a> \
                     </li>";
