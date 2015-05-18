@@ -27,7 +27,6 @@ h1 {
 h2 {
     color: #6d6e71;
     font-family: "AvenirItalic",Arial,sans-serif;
-    font-style: italic;
     font-weight: normal;
     font-size: 14px;
     text-align: center;
@@ -83,6 +82,10 @@ li {
     white-space: pre;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+.summary a {
+    color: #6d6e71;
 }
 
 .results {

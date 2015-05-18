@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hivemind",
   "description": "Identify web technologies used on websites.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icons": { 
     "16": "images/hivemind_brain_16.png",
     "48": "images/hivemind_brain_48.png",
