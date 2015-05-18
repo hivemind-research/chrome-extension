@@ -85,10 +85,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     </li>";
             }
 
-        html += "</ul> \
-            <h3>Hosted by</h3> \
-            <p><img class='flag' src='images/flags/" + result.country + "_2x.png' width='16' height='16' />" + result.asn + "</p> \
-        ";
+        if (result.asn && result.country) {
+            html += "</ul> \
+                <h3>Hosted by</h3> \
+                <p><img class='flag' src='images/flags/" + result.country + "_2x.png' width='16' height='16' />" + result.asn + "</p> \
+            ";
+        }
 
         results.innerHTML = html;
 
